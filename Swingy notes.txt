@@ -1,0 +1,16 @@
+POM file is needed so mvn can compile src
+Settings is needed to specify what build of jdk is required to compile
+
+Monsters gets generated with possible names and added an adjectives "static string"
+to create one monster mod with a possible adjective in their names for example
+"Frail Giant"
+
+Also created a extra "Missons" that the player can finish to recive extra exp to level up.
+All stored in the models/missons directory
+
+ItemFactory generates rarity of the possible items you may recieve
+
+NewGameMenuservice holds the data of heros equipment and what nots
+
+All views and views types are in Views(as you guessed it)
+
