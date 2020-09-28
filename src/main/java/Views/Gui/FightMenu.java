@@ -33,23 +33,23 @@ public class FightMenu extends BaseWindow {
         updateTextfield();
         saveExitButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ApplicationControls.addInstructions("Save_exit");
+                ApplicationControls.addInstructions("save_exit");
             }
         });
 
         runButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ApplicationControls.addInstructions("Escape");
+                ApplicationControls.addInstructions("run");
             }
         });
         fightButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ApplicationControls.addInstructions("Fight");
+                ApplicationControls.addInstructions("fight");
             }
         });
         simulateButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ApplicationControls.addInstructions("Simulate");
+                ApplicationControls.addInstructions("simulate");
             }
         });
     }
